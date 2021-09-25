@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Key Detection</title>
+		<script
+			type="text/javascript"
+			src="https://www.cornify.com/js/cornify.js"
+		></script>
+	</head>
+	<body>
+		<script>
+			let pressed = [];
+			const magic = "boo";
+			addEventListener("keyup", (e) => {
+				pressed.push(e.key);
+				pressed.splice(-magic.length - 1, pressed.length - magic.length);
+				if (pressed.join("").includes(magic)) {
+					console.log("*****");
+					cornify_add();
+				}
+			});
+		</script>
+	</body>
+</html>

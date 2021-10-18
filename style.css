@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+*,
+*::before,
+*::after {
+	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background: royalblue;
+	font-size: 20px;
+	line-height: 28px;
+	color: #323b40;
+	font-size: 20px;
+	line-height: 1.6;
+	margin: 40px 0;
+}
+
+h1 {
+	color: #fff;
+	width: 60%;
+	max-width: 960px;
+	margin: 0 auto 60px;
+	transform: rotate(-3deg);
+	font-size: 5rem;
+	line-height: 5rem;
+	text-shadow: 0 1px 0 hsl(52, 7%, 20%), 0 2px 0 hsl(52, 7%, 18%),
+		0 3px 0 hsl(52, 7%, 16%), 0 4px 0 hsl(52, 7%, 14%), 0 5px 0 hsl(52, 7%, 12%),
+		0 6px 0 hsl(52, 7%, 10%), 0 7px 0 hsl(52, 7%, 8%), 0 8px 0 hsl(52, 7%, 6%),
+		0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2),
+		0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2),
+		0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+a {
+	line-height: 2;
+}
+
+a:link,
+a:visited {
+	color: lightcoral;
+	text-decoration: none;
+	border-bottom: dotted 1px lightcoral;
+}
+a:hover {
+	background: lightcoral;
+	color: white;
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+	background: #e7eef1;
+	width: 60%;
+	max-width: 960px;
+	margin: 60px auto;
+	padding: 40px 40px 60px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}

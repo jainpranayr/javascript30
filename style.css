@@ -59,3 +59,14 @@ a:hover {
 	box-sizing: border-box;
 	border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 3rem;
+	}
+	.container {
+		margin: 10px auto;
+		padding: 0;
+		width: 100%;
+	}
+}
